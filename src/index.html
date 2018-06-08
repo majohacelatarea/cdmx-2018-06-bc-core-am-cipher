@@ -1,13 +1,41 @@
 <!DOCTYPE html>
 <html>
+
   <head>
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
+
     <div id="root"></div>
+    <h1>My Hiding Place.com</h1>
+
+    <p>Codifica tus mensajes y envía mensajes secretos.<p>
+      <br>
+
+
+    <div>
+    Ingresa el texto a codificar <input type="text" id="message">  
+    <br>
+    <br>
+    <br>
+    
+    ¿Cuántos lugares quiere desplazar? <input type="number" id="number"> 
+    <br>
+    <br>
+    <br>
+    
+    <input type="button" value="enviar" onclick="originMessageSave()">
+    <br>
+    <br>
+    <br>
+    Texto decodificado <input type="text" id="result">
+    </div>
+
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>
+
 </html>
