@@ -12,26 +12,27 @@
     <div id="root"></div>
     <h1>My Hiding Place.com</h1>
 
-    <p>Codifica tus mensajes y envía mensajes secretos.<p>
+    <!--<p>Codifica tus mensajes y envía mensajes secretos.<p>-->
       <br>
 
 
     <div>
-    Ingresa el texto a codificar <input type="text" id="message">  
+    Ingresa el texto a codificar <input type="text" id="message" >  
     <br>
     <br>
     <br>
     
-    ¿Cuántos lugares quiere desplazar? <input type="number" id="number"> 
+    Número clave <input type="number" id="number">
     <br>
     <br>
     <br>
-    
-    <input type="button" value="enviar" onclick="originMessageSave()">
-    <br>
-    <br>
-    <br>
+
     Texto decodificado <input type="text" id="result">
+    <br>
+    <br>
+    <br>
+
+    <input id="codificar" type="button" value="Codificar"> <input id="decodificar" type="button" value="Decodificar">
     </div>
 
     <script src="cipher.js"></script>
