@@ -1,0 +1,30 @@
+
+body {
+background: url(https://cdn.pixabay.com/photo/2017/02/22/18/04/polka-dots-2090136_1280.jpg);
+background-size: 100%;
+}
+
+header div h1{
+    text-align: left;
+    background-color: black;
+    color: aliceblue;
+    font-family: "Gill Sans MT";
+    padding: 2%;
+    width: 12%;
+}
+
+/*header div h2{
+    float: unset;
+    background-color: black;
+    text-align: center;
+    color: aliceblue;
+    font-family: "Gill Sans MT";
+    font-style: inherit;
+}*/
+
+section div {
+float: right;
+background-color: black;
+color: aliceblue;
+padding: 5%;
+}

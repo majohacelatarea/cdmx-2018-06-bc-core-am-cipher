@@ -19,7 +19,6 @@ window.cipher = {
      }
 
     }
-    result.value = empty;
     return empty;
     
 
@@ -33,18 +32,18 @@ window.cipher = {
         empty += string[i];
       } else if (string[i].charCodeAt()>= 65 && string[i].charCodeAt()<=90){
         let decodePosition = string[i].charCodeAt();
-        let formulaDecode = ((decodePosition - 65 - parseInt(offset)) % 26 + 65);
+        let formulaDecode = ((decodePosition - 90 - parseInt(offset)) % 26 + 90);
         let decodeCodify = String.fromCharCode(formulaDecode);
         empty += decodeCodify;
       } else if (string[i].charCodeAt()>= 97 && string[i].charCodeAt()<=122){
         let decodePosition2 = string[i].charCodeAt();
-        let formulaDecode2 = ((decodePosition2 - 97 - parseInt(offset)) % 26 + 97);
+        let formulaDecode2 = ((decodePosition2 - 122 - parseInt(offset)) % 26 + 122);
         let decodeCodify2 = String.fromCharCode(formulaDecode2);
         empty += decodeCodify2;
       }
     }
   //console.log(empty);
-  originMessage.value = empty;
+  //originMessage.value = empty;
   return empty;
 }
 }

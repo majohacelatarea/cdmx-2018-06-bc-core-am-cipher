@@ -10,30 +10,38 @@
   <body>
 
     <div id="root"></div>
-    <h1>My Hiding Place.com</h1>
+    
+    <header>
+      <div>
+        <h1>My Hiding Place.com</h1>
+        <hr size=10 align=center color="black" width=100%> 
+        <h2> Coifica tus mensajes</h2>
+      </div>  
+    </header>
 
-    <!--<p>Codifica tus mensajes y envía mensajes secretos.<p>-->
+    <p>Encripta tus mensajes<p>
       <br>
 
-
-    <div>
-    Ingresa el texto a codificar <input type="text" id="message" >  
+    <section>
+      <div>
+        Ingresa tu texto <input type="text" id="message" >  
     <br>
     <br>
     <br>
     
-    Número clave <input type="number" id="number">
+         Número clave <input type="number" id="number">
     <br>
     <br>
     <br>
 
-    Texto decodificado <input type="text" id="result">
+        Texto cifrado <input type="text" id="result">
     <br>
     <br>
     <br>
 
     <input id="codificar" type="button" value="Codificar"> <input id="decodificar" type="button" value="Decodificar">
-    </div>
+      </div>
+    </section>
 
     <script src="cipher.js"></script>
     <script src="index.js"></script>
